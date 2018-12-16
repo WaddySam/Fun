@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title> Hello there </title>
+
+</head>
+
+<p> Press that to see magic </p>
+
+<! it will make the user to press "THAT" button>
+
+<button onclick="trickFunction()">THAT</button>
+
+<p id="try"></p>
+
+<script>
+
+
+
+<!--The trickFunction below asks the user for their favorite color , then it will return silly phrase -->
+
+function trickFunction() {
+	var user = prompt( "Enter your favorite color ?", "Color ex. gray");
+		if (user != null) {
+			document.getElementById("try").innerHTML = " SIKE!! " + user + "ish";
+	}
+}
+</script>
+
+</body>
+</html>
+
+
+
+
+
